@@ -1,0 +1,818 @@
+track ATAC_Overlay_Abassah_GSM4860413_GSM4860414
+    container multiWig
+    shortLabel Abassah_LPMO
+    longLabel Overlay_LPMO_GSM4860413_GSM4860414 
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track Abassah_GSM4860413
+        parent ATAC_Overlay_Abassah_GSM4860413_GSM4860414
+        bigDataUrl https://de.cyverse.org/dl/d/82FBDB8A-C17B-47F5-854C-E4FC9327F32C/GSM4860413_LPMO_062317_1G_h_01_atac.trim.merged.nodup.tn5.pval.signal.mm10.bigwig
+        shortLabel Abassah_GSM4860413_Encode
+        longLabel GSM4860413_LPMO_062317_1G_h_01_atac.trim.merged.nodup.tn5.pval.signal.mm10
+        type bigWig
+        color 255,153,153
+          
+
+        track Abassah_GSM4860414
+        parent ATAC_Overlay_Abassah_GSM4860413_GSM4860414
+        bigDataUrl https://de.cyverse.org/dl/d/F1B0EEA7-ABDB-46D7-BB7B-E85F1E166EE9/GSM4860414_LPMO_062317_1H_h_02_atac.trim.merged.nodup.tn5.pval.signal.mm10.bigwig
+        shortLabel Abassah_GSM4860414
+        longLabel GSM4860414_LPMO_062317_1H_h_02_atac.trim.merged.nodup.tn5.pval.signal.mm10
+        type bigWig
+        color 255,204,204
+    
+track Abassah_intersect_GSM4860413_GSM4860414
+bigDataUrl 
+shortLabel Abassah_LPMO
+longLabel Abassah_intersect_GSM4860413_GSM4860414
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,178,178
+
+track Abassah_intersect_GSM4860413_GSM4860414_regions
+bigDataUrl 
+itemRgb on
+shortLabel Abassah_LPMO
+longLabel Abassah_intersect_GSM4860413_GSM4860414_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 255,178,178
+
+
+track Abassah_GSM4860413
+bigDataUrl 
+shortLabel Abassah_LPMO
+longLabel GSM4860413_LPMO_062317_1G_h_01_atac.trim.merged.nodup.tn5.pval.signal.mm10-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,153,153
+
+track Abassah_GSM4860413_regions
+bigDataUrl 
+itemRgb on
+shortLabel Abassah_LPMO
+longLabel GSM4860413_LPMO_062317_1G_h_01_atac.trim.merged.nodup.tn5.pval.signal.mm10-region        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 255,153,153
+
+
+track Abassah_GSM4860414
+bigDataUrl 
+shortLabel Abassah_LPMO
+longLabel GSM4860414_LPMO_062317_1H_h_02_atac.trim.merged.nodup.tn5.pval.signal.mm10-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,204,204
+
+track Abassah_GSM4860414_regions
+bigDataUrl 
+itemRgb on
+shortLabel Abassah_LPMO
+longLabel GSM4860414_LPMO_062317_1H_h_02_atac.trim.merged.nodup.tn5.pval.signal.mm10-region        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 255,204,204
+
+        
+track ATAC_Overlay_Fernandez_GSM3529864_GSM3529865
+    container multiWig
+    shortLabel Fernandez_POPM
+    longLabel Overlay_POPM_GSM3529864_GSM3529865  
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+   
+
+        track Fernandez_GSM3529864
+        parent ATAC_Overlay_Fernandez_GSM3529864_GSM3529865
+        bigDataUrl https://de.cyverse.org/dl/d/07FDE635-7F09-487A-849C-07D7CCD2A4D8/GSM3529864-P0PM_1_S1_P0_12.5k_eHcn4_1_ATACseq-align.bw
+        shortLabel Fernandez_GSM3529864
+        longLabel GSM3529864-P0PM_1_S1_P0_12.5k_eHcn4_1_ATACseq-align
+        type bigWig
+        color 153,204,153
+          
+
+        track Fernandez_GSM3529865
+        parent ATAC_Overlay_Fernandez_GSM3529864_GSM3529865
+        bigDataUrl https://de.cyverse.org/dl/d/31CA6144-813C-4FCF-BB52-E8F1309A2A66/GSM3529865-P0PM_2_S1_P0_12.5k_eHcn4_2_ATACseq-align.bw
+        shortLabel Fernandez_GSM3529865
+        longLabel GSM3529865-P0PM_2_S1_P0_12.5k_eHcn4_2_ATACseq-align
+        type bigWig
+        color 204,204,153
+
+
+track Fernandez_intersect_GSM3529864_GSM3529865
+bigDataUrl 
+shortLabel Fernandez_POPM
+longLabel Fernandez_intersect_GSM3529864_GSM3529865
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 178,204,153
+
+track Fernandez_intersect_GSM3529864_GSM3529865_regions
+bigDataUrl 
+itemRgb on
+shortLabel Fernandez_POPM
+longLabel Fernandez_intersect_GSM3529864_GSM3529865_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 178,204,153
+
+
+track Fernandez_GSM3529864
+bigDataUrl 
+shortLabel Fernandez_POPM
+longLabel GSM3529864-P0PM_1_S1_P0_12.5k_eHcn4_1_ATACseq-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 153,204,153
+
+track Fernandez_GSM3529864_regions
+bigDataUrl 
+itemRgb on
+shortLabel Fernandez_POPM
+longLabel GSM3529864-P0PM_1_S1_P0_12.5k_eHcn4_1_ATACseq-region        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 153,204,153
+
+
+track Fernandez_GSM3529865
+bigDataUrl 
+shortLabel Fernandez_POPM
+longLabel GSM3529865-P0PM_2_S1_P0_12.5k_eHcn4_2_ATACseq-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,204,153
+
+track Fernandez_GSM3529865_regions
+bigDataUrl 
+itemRgb on
+shortLabel Fernandez_POPM
+longLabel GSM3529865-P0PM_2_S1_P0_12.5k_eHcn4_2_ATACseq-regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 204,204,153
+
+
+track ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+    container multiWig
+    shortLabel Gelang_PC
+    longLabel Overlay_PC_GSM4473027_GSM4473028_GSM4473029_GSM4473030  
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+   
+
+        track Gelang_GSM4473027
+        parent ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+        bigDataUrl https://de.cyverse.org/dl/d/E832800E-3475-49AB-965D-DA19AA8557F7/GSM4473027-PC-ATAC-seq-rep1-align.bw
+        shortLabel Gelang_GSM4473027
+        longLabel GSM4473027-PC-ATAC-seq-rep1-align
+        type bigWig
+        color 204,255,204
+          
+
+        track Gelang_GSM4473028
+        parent ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+        bigDataUrl https://de.cyverse.org/dl/d/0B822F52-F746-4CC9-862D-B8B4C29F76EE/GSM4473028-PC-ATAC-seq-rep2-align.bw
+        shortLabel Gelang_GSM4473028
+        longLabel GSM4473028-PC-ATAC-seq-rep2-align
+        type bigWig
+        color 153,204,153
+        
+        
+        track Gelang_GSM4473029
+        parent ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+        bigDataUrl https://de.cyverse.org/dl/d/0BEA10BC-F8F4-4400-B1A8-A24482653E12/GSM4473029-PC-ATAC-seq-rep3-align.bw
+        shortLabel Gelang_GSM4473029
+        longLabel GSM4473029-PC-ATAC-seq-rep3-align
+        type bigWig
+        color 255,255,204
+          
+          
+        track Gelang_GSM4473030
+        parent ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+        bigDataUrl https://de.cyverse.org/dl/d/87EC3519-64CC-4B3A-AF07-850A0C7DCBCA/GSM4473030-PC-ATAC-seq-rep4-align.bw
+        shortLabel Gelang_GSM4473030
+        longLabel GSM4473030-PC-ATAC-seq-rep4-align
+        type bigWig
+        color 204,204,153
+
+
+track Gelang_intersect_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+bigDataUrl 
+shortLabel Gleang_PC
+longLabel Gelang_intersect_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,230,178
+
+track Gelang_intersect_GSM4473027_GSM4473028_GSM4473029_GSM4473030_regions
+bigDataUrl 
+itemRgb on
+shortLabel Gelang_PC
+longLabel Gelang_intersect_GSM4473027_GSM4473028_GSM4473029_GSM4473030_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 204,230,178
+
+
+track Gelang_GSM4473027
+bigDataUrl 
+shortLabel Gelang_PC
+longLabel GSM4473027-PC-ATAC-seq-rep1-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,255,204
+
+track Gelang_GSM4473027_regions
+bigDataUrl 
+itemRgb on
+shortLabel Gelang_PC
+longLabel GSM4473027-PC-ATAC-seq-rep1-region        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 204,255,204
+
+
+track Gelang_GSM4473028
+bigDataUrl 
+shortLabel Gelang_PC
+longLabel GSM4473028-PC-ATAC-seq-rep1-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 153,204,153
+
+track Gelang_GSM4473028_regions
+bigDataUrl 
+itemRgb on
+shortLabel Gelang_PC
+longLabel GSM4473028-PC-ATAC-seq-rep1-regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 153,204,153
+
+
+track Gelang_GSM4473029
+bigDataUrl 
+shortLabel Gelang_PC
+longLabel GSM4473029-PC-ATAC-seq-rep2-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,255,204
+
+track Gelang_GSM4473029_regions
+bigDataUrl 
+itemRgb on
+shortLabel Gelang_PC
+longLabel GSM4473029-PC-ATAC-seq-rep2-regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 255,255,204
+
+track Gelang_GSM4473030
+bigDataUrl 
+shortLabel Gelang_PC
+longLabel GSM4473030-PC-ATAC-seq-rep3-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,204,153
+
+track Gelang_GSM4473030_regions
+bigDataUrl 
+itemRgb on
+shortLabel Gelang_PC
+longLabel GSM4473030-PC-ATAC-seq-rep3-regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 204,204,153
+
+track ATAC_Overlay_Gelang_GSM4473031_GSM4473032_GSM4473033
+    container multiWig
+    shortLabel Gelang_RACM
+    longLabel Overlay_RACM_GSM4473031_GSM4473032_GSM4473033  
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+   
+
+        track Gelang_GSM4473031
+        parent ATAC_Overlay_Gelang_GSM4473031_GSM4473032_GSM4473033
+        bigDataUrl https://de.cyverse.org/dl/d/F9D9FC2D-C587-4A05-8B23-124C7894D589/GSM4473031-RACM-ATAC-seq-rep1-align.bw
+        shortLabel Gelang_GSM4473031
+        longLabel GSM4473031-RACM-ATAC-seq-rep1-align
+        type bigWig
+        color 255,204,255
+          
+
+        track Gelang_GSM4473032
+        parent ATAC_Overlay_Gelang_GSM4473031_GSM4473032_GSM4473033
+        bigDataUrl https://de.cyverse.org/dl/d/247B0734-3077-43C8-985E-9ACCC4C298E9/GSM4473032-RACM-ATAC-seq-rep2-align.bw
+        shortLabel Gelang_GSM4473032
+        longLabel GSM4473032-RACM-ATAC-seq-rep2-align
+        type bigWig
+        color 204,153,255
+        
+        
+        track Gelang_GSM4473033
+        parent ATAC_Overlay_Gelang_GSM4473031_GSM4473032_GSM4473033
+        bigDataUrl https://de.cyverse.org/dl/d/35CEBC5C-E3BA-4782-A9E8-2FF3BF39F097/GSM4473033-RACM-ATAC-seq-rep3-align.bw
+        shortLabel Gelang_GSM4473033
+        longLabel GSM44733-RACM-ATAC-seq-rep3-align
+        type bigWig
+        color 204,204,255
+
+
+track Gelang_intersect_GSM4473031_GSM4473032_GSM4473033
+bigDataUrl 
+shortLabel Gleang_RACM
+longLabel Gelang_intersect_GSM4473031_GSM4473032_GSM4473033
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 230,178,255
+
+track Gelang_intersect_GSM4473031_GSM4473032_GSM4473033_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518676_GSM3518675_GSM3518676_A_Tbx5_fb1_fb2_only_regions.bb
+itemRgb on
+shortLabel Gelang_RACM
+longLabel Gelang_intersect_GSM4473031_GSM4473032_GSM4473033_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 230,178,255
+
+
+track Gelang_GSM4473031
+bigDataUrl 
+shortLabel Gelang_GSM4473031
+longLabel GSM4473031-RACM-ATAC-seq-rep1-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 255,204,255
+
+track Gelang_GSM4473031_regions
+bigDataUrl 
+itemRgb on
+shortLabel Gelang_GSM4473031
+longLabel GSM4473031-RACM-ATAC-seq-rep1-regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 255,204,255
+
+
+track Gelang_GSM4473032
+bigDataUrl 
+shortLabel Gelang_GSM4473032
+longLabel GSM4473032-RACM-ATAC-seq-rep2-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,153,255
+
+track Gelang_GSM4473032_regions
+bigDataUrl 
+itemRgb on
+shortLabel Gelang_GSM4473032
+longLabel GSM4473032-RACM-ATAC-seq-rep2-regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 204,153,255
+
+track Gelang_GSM4473033
+bigDataUrl 
+shortLabel Gelang_GSM4473033
+longLabel GSM44733-RACM-ATAC-seq-rep3-align
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,204,255
+
+track Gelang_GSM4473033_regions
+bigDataUrl 
+itemRgb on
+shortLabel Gelang_GSM4473033
+longLabel GSM44733-RACM-ATAC-seq-rep3-regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 204,204,255
+
+
+track ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
+    container multiWig
+    shortLabel Akerberg_Foetal
+    longLabel Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5 
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track Akerberg_GSM3518657_Foetal_Tbx5_fb1
+        parent ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
+        shortLabel Akerberg_GSM3518657_Foetal
+        longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
+        type bigWig
+        color 250,102,102
+          
+
+        track Akerberg_GSM3518659_Foetal_Tbx5_fb2
+        parent ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
+        shortLabel Akerberg_GSM3518659_Foetal
+        longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2
+        type bigWig
+        color 204,102,102
+
+
+track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518659_F_Tbx5_fb1_fb2.bw
+shortLabel Akerberg_Foetal
+longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 100:30:18
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 230,102,102
+
+track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518658_GSM3518659_GSM3518660_F_Tbx5_fb1_fb2_only_regions.bb
+itemRgb on
+shortLabel Akerberg_Foetal
+longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions       
+type bigBed 3 . 
+configurable on
+visibility dense
+color 230,102,102
+    
+    
+track Akerberg_GSM3518657_Foetal_Tbx5__fb1
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
+shortLabel Akerberg_Foetal
+longLabel Akerberg_GSM3518657_Foetal_Tbx5__fb1
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11 
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 250,102,102
+
+track Akerberg_GSM3518657_Foetal_Tbx5_fb1_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_GSM3518658_F_Tbx5_fb1_peaks.no.artfs_only_regions.bb
+itemRgb on
+shortLabel Akerberg_Foetal
+longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1_regions       
+type bigBed 3 .
+configurable on
+visibility dense
+color 250,102,102        
+
+
+track Akerberg_GSM3518659_Foetal_Tbx5__fb2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
+shortLabel Akerberg_Foetal
+longLabel Akerberg_GSM3518659_Foetal_Tbx5__fb2
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,102,102
+
+track Akerberg_GSM3518659_Foetal_Tbx5_fb2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_GSM3518660_F_Tbx5_fb2_peaks.no.artfs_only_regions.bb
+itemRgb on
+shortLabel Akerberg_Foetal
+longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 204,102,102  
+
+ 
+track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
+    container multiWig
+    shortLabel Akerberg_Adult
+    longLabel Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5 
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track Akerberg_GSM3518674_Adult_Tbx5_fb1
+        parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
+        shortLabel Akerberg_Adult
+        longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1
+        type bigWig
+        color 250,102,102
+          
+
+        track Akerberg_GSM3518675_Adult_Tbx5_fb2
+        parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
+        shortLabel Akerberg_Adult
+        longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2
+        type bigWig
+        color 204,102,102
+        
+
+track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518675_A_Tbx5_fb1_fb2.bw
+shortLabel Akerberg_Adult
+longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 230,102,102
+
+track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518676_GSM3518675_GSM3518676_A_Tbx5_fb1_fb2_only_regions.bb
+itemRgb on
+shortLabel Akerberg_Adult
+longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 230,102,102
+
+
+track Akerberg_GSM3518674_Adult_Tbx5__fb1
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
+shortLabel Akerberg_Adult
+longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 250,102,102
+
+track Akerberg_GSM3518674_Adult_Tbx5_fb1_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_GSM3518676_A_Tbx5_fb1_peaks.no.artfs_only_regions.bb
+itemRgb on
+shortLabel Akerberg_Adult
+longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 250,102,102
+
+
+track Akerberg_GSM3518675_Adult_Tbx5__fb2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
+shortLabel Akerberg_Adult
+longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,102,102
+
+track Akerberg_GSM3518675_Adult_Tbx5_fb2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_GSM3518676_A_Tbx5_fb2_peaks.no.artfs_only_regions.bb
+itemRgb on
+shortLabel Akerberg_Adult
+longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 204,102,102
+        
+        

@@ -1,0 +1,5 @@
+hub ATAC-seq/CHIP-seq : Gelang Fernandez Abassah Akerberg
+shortLabel Shox2_Images_Paper
+longLabel ATACseq/CHIP-seq : Gelang Fernandez Abassah Akerberg
+genomesFile genomes.txt 
+email  matteo.zoia@dbmr.unibe.ch
